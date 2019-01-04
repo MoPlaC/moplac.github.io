@@ -43,7 +43,7 @@ footer {
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 1rem;
-	min-width: 15rem;
+	min-width: 13rem;
 	min-height: 1rem;
 	padding: 20px 10px 15px;
 	position: relative;
@@ -57,15 +57,17 @@ footer {
 
 .site-btn:hover {
 	color: #40424a;
+	text-decoration:None;
 }
 
 .page-title {
   text-align: center;
   font-weight: 100;
-  font-size:3rem;
+  font-size:4rem;
   padding: 0.25rem;
   margin: 0rem;
   font-family: 'Montserrat', sans-serif;
+  color:dimgrey;
 }
 
 li {
