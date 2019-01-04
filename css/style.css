@@ -14,6 +14,11 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 600;
+	font-family: "Oswald",sans-serif;
+}
+
+p {
+	font-family: "Montserrat",sans-serif;
 }
 
 h2 {
@@ -30,17 +35,11 @@ p {
 }
 
 
-header {
-	background: #0D1838;
-	background-size: cover;
-	display: flex;
-	margin: 0px;
-	padding: 0.25rem;
-	align-items: center;
+footer {
+	position:absolute;
 }
 
 .site-btn {
-	float: right;
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 1rem;
@@ -63,7 +62,7 @@ header {
 .page-title {
   text-align: center;
   font-weight: 100;
-  font-size: 4rem;
+  font-size:3rem;
   padding: 0.25rem;
   margin: 0rem;
   font-family: 'Montserrat', sans-serif;
