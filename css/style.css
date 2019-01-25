@@ -47,7 +47,6 @@ footer {
 	min-height: 1rem;
 	padding: 20px 10px 15px;
 	position: relative;
-	background-color: ;
 	margin-right: 1rem;
 	margin-top: 1rem;
 	font-weight: 700;
@@ -69,6 +68,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
   color:dimgrey;
 }
+	
 
 li {
   margin: 0;
@@ -81,6 +81,8 @@ li {
 li a {
 	color:#CD5360;
 }
+
+
 
 
 
