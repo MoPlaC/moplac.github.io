@@ -55,9 +55,10 @@ footer {
 }
 
 .site-btn:hover {
-	color: #C1C1C1;
+	color: #23AABC;
 	text-decoration:None;
 }
+
 
 .page-title {
   text-align: center;
@@ -79,7 +80,7 @@ li {
 }
 
 li a {
-	color:#4B2D83;
+	color:black;
 }
 
 
