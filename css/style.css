@@ -45,7 +45,6 @@ footer {
 
 .site-btn {
 	display: inline;
-	vertical-align:center;
 	width: 100%;
 	height: auto;
 	text-transform: uppercase;
@@ -55,8 +54,7 @@ footer {
 	padding: 20px 10px 15px;
 	position: relative;
 	margin-right: 1rem;
-	margin-top: 2rem;
-	padding-top: 2rem;
+	margin-top: 1rem;
 	font-weight: 700;
 	text-align: center;
 	font-family: "Montserrat";
@@ -74,7 +72,6 @@ footer {
   position: relative;
   transition: 0.5s;
   text-align:center;
-  vertical-align:center;
 }
 
 .site-btn span:after {
@@ -99,7 +96,7 @@ footer {
 .page-title {
   text-align: center;
   font-weight: 100;
-  font-size:4rem;
+  font-size:3.55rem;
   padding: 0.25rem;
   margin: 0rem;
   font-family: 'Montserrat', sans-serif;
