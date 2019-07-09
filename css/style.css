@@ -3,7 +3,11 @@ body {
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 	text-align:center;
+	vertical-align:center;
+}
 
+* {
+  box-sizing: border-box;
 }
 
 h1,
@@ -40,15 +44,19 @@ footer {
 }
 
 .site-btn {
-	display: inline-block;
+	display: inline;
+	vertical-align:center;
+	width: 100%;
+	height: auto;
 	text-transform: uppercase;
 	font-size: 1rem;
-	min-width: 13rem;
-	min-height: 1rem;
+	transition: all 0.5s;
+	cursor: pointer;
 	padding: 20px 10px 15px;
 	position: relative;
 	margin-right: 1rem;
-	margin-top: 1rem;
+	margin-top: 2rem;
+	padding-top: 2rem;
 	font-weight: 700;
 	text-align: center;
 	font-family: "Montserrat";
@@ -57,6 +65,34 @@ footer {
 .site-btn:hover {
 	color: #23AABC;
 	text-decoration:None;
+}
+
+
+.site-btn span {
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  transition: 0.5s;
+  text-align:center;
+  vertical-align:center;
+}
+
+.site-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.site-btn:hover span {
+  padding-right: 25px;
+}
+
+.site-btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
@@ -69,14 +105,19 @@ footer {
   font-family: 'Montserrat', sans-serif;
   color:dimgrey;
 }
-	
+
+ul {
+	text-align:center;
+	vertical-align:center;
+}	
 
 li {
   margin: 0;
   padding: 0 10px;
-  display: block;
-  float: right;
+  display: inline;
   text-decoration: none;
+  float:center;
+  vertical-align:center;
 }
 
 li a {
