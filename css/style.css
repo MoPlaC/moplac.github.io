@@ -1,14 +1,4 @@
 html,
-body {
-	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align:center;
-	vertical-align:center;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 h1,
 h2,
@@ -16,13 +6,13 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	font-weight: 600;
 	font-family: "Oswald",sans-serif;
 }
 
 p {
 	font-family: "Montserrat",sans-serif;
+	font-size: 18px;
+	line-height: 1.8;
 }
 
 h2 {
@@ -33,16 +23,6 @@ h3 {
 	font-size: 30px;
 }
 
-p {
-	font-size: 18px;
-	line-height: 1.8;
-}
-
-
-footer {
-	position:absolute;
-}
-
 .site-btn {
 	display: inline;
 	width: 100%;
@@ -50,13 +30,9 @@ footer {
 	text-transform: uppercase;
 	font-size: 1rem;
 	transition: all 0.5s;
-	cursor: pointer;
-	padding: 20px 10px 15px;
+	padding:0.3rem;
 	position: relative;
-	margin-right: 1rem;
-	margin-top: 1rem;
 	font-weight: 700;
-	text-align: center;
 	font-family: "Montserrat";
 }
 
@@ -67,41 +43,38 @@ footer {
 
 
 .site-btn span {
-  cursor: pointer;
-  display: inline;
-  position: relative;
-  transition: 0.5s;
-  text-align:center;
+	display: inline;
+	position: relative;
+	transition: 0.5s;
 }
 
 .site-btn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 .site-btn:hover span {
-  padding-right: 25px;
+	padding-right: 25px;
+	color: #23AABC;
 }
 
 .site-btn:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0.7rem;
 }
 
 
 .page-title {
-  text-align: center;
-  font-weight: 100;
-  font-size:3.55rem;
-  font-stretch:20rem;
-  padding: 0.25rem;
-  margin: 0rem;
-  font-family: 'Montserrat', sans-serif;
-  color:dimgrey;
+	font-weight:100;
+	text-align:center;
+	font-size:3.55rem;
+	padding: 0.25rem;
+	margin: 0rem;
+	font-family: 'Montserrat', sans-serif;
+	color:dimgrey;
 }
 
 ul {
@@ -110,13 +83,11 @@ ul {
 }	
 
 li {
-  margin: 0;
-  padding: 0 10px;
-  display: inline;
-  text-decoration: none;
-  float:center;
-  vertical-align:center;
+	padding: 1rem;
+	display: inline;
+	text-decoration: none;
 }
+
 
 li a {
 	color:black;
