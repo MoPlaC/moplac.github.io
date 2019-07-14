@@ -1,5 +1,4 @@
 html,
-
 h1,
 h2,
 h3,
@@ -24,7 +23,10 @@ h3 {
 }
 
 .site-btn {
-	display: inline;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
 	width: 100%;
 	height: auto;
 	text-transform: uppercase;
@@ -66,33 +68,33 @@ h3 {
 	right: 0.7rem;
 }
 
-
 .page-title {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
 	font-weight:100;
-	text-align:center;
 	font-size:3.55rem;
 	padding: 0.25rem;
 	margin: 0rem;
 	font-family: 'Montserrat', sans-serif;
 	color:dimgrey;
+	align-items: center;
 }
-
-ul {
-	text-align:center;
-	vertical-align:center;
-}	
-
-li {
-	padding: 1rem;
-	display: inline;
-	text-decoration: none;
-}
-
 
 li a {
 	color:black;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10rem;
+}
+li {
+    list-style-type: none;
+}
 
 
 
